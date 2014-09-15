@@ -1,0 +1,461 @@
+user  www www;
+
+worker_processes 1;
+
+error_log  /data/wwwlogs/nginx_error.log;
+
+pid        /usr/local/nginx/logs/nginx.pid;
+
+#Specifies the value for maximum file descriptors that can be opened by this process.
+worker_rlimit_nofile 51200;
+
+events
+	{
+		use kqueue;
+		worker_connections 51200;
+	}
+
+http
+	{
+		include       mime.types;
+		default_type  application/octet-stream;
+
+		server_names_hash_bucket_size 128;
+		client_header_buffer_size 32k;
+		large_client_header_buffers 4 32k;
+		client_max_body_size 50m;
+
+		sendfile on;
+		tcp_nopush     on;
+
+		keepalive_timeout 60;
+
+		tcp_nodelay on;
+
+		fastcgi_connect_timeout 300;
+		fastcgi_send_timeout 300;
+		fastcgi_read_timeout 300;
+		fastcgi_buffer_size 64k;
+		fastcgi_buffers 4 64k;
+		fastcgi_busy_buffers_size 128k;
+		fastcgi_temp_file_write_size 256k;
+
+		gzip on;
+		gzip_min_length  1k;
+		gzip_buffers     4 16k;
+		gzip_http_version 1.0;
+		gzip_comp_level 2;
+		gzip_types       text/plain application/x-javascript text/css application/xml application/json;
+		gzip_vary on;
+
+		#limit_zone  crawler  $binary_remote_addr  10m;
+
+	server
+	{
+		listen  88;
+		server_name 221.122.61.3;
+		server_name 192.168.20.101;
+		index index.php;
+		root  /data/;
+
+		access_log /tmp/88_access.log;
+		error_log  /tmp/88_error.log;
+
+		location / {
+			include fcgi.conf;
+	 		if ($request_filename ~ "\.php$") {
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+	 		}
+		}
+
+		location /status {
+			#stub_status on;
+			access_log   off;
+		}
+
+		location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+			{
+				expires      30d;
+			}
+
+		location ~ .*\.(js|css)?$
+			{
+				expires      12h;
+			}
+	}
+
+	server
+	{
+		listen       99;
+		server_name 221.122.61.3;
+		server_name 192.168.20.101;
+		index test.php;
+
+		root  /data/fantasy_farm/public/;
+
+		access_log /tmp/farm.access.log;
+		error_log /tmp/farm.error.log;
+
+		location ~ .*\.(php|php5)?$
+			{
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+				fastcgi_index test.php;
+				include fcgi.conf;
+			}
+
+		location ^~ /tools/{
+			root  /data/fantasy_farm/tools/;
+			fastcgi_index index.php;
+			include  fcgi.conf;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /tools/index.php?$1& last;
+			}
+
+			if ($request_filename ~ "\.php$") {
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+			}
+		}
+
+		location /status {
+			stub_status on;
+			access_log   off;
+		}
+
+		location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+			{
+				expires      30d;
+			}
+
+		location ~ .*\.(js|css)?$
+			{
+				expires      12h;
+			}
+
+		location ^~ /flash1/ {
+                        alias /data/fantasy_farm/flash1/;
+                }
+
+		location ^~ /flash/ {
+                        alias /data/fantasy_farm/flash/;
+                }
+
+		location ^~ /svn.php {
+                        root  /data/tools/svn/;
+                        fastcgi_pass  unix:/tmp/php-cgi.sock;
+                        include fcgi.conf;
+                }
+
+		location / {
+			index  test.php;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /test.php?$1& last;
+			}
+		}
+	}
+
+	server
+	{
+		listen       991;
+		server_name 221.122.61.3;
+		server_name 192.168.20.101;
+		index test.php;
+
+		root  /data/fantasy_farm2/public/;
+
+		access_log /tmp/farm.access.log;
+		error_log /tmp/farm.error.log;
+
+		location ~ .*\.(php|php5)?$
+			{
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+				fastcgi_index test.php;
+				include fcgi.conf;
+			}
+
+		location ^~ /tools/{
+			root  /data/fantasy_farm2/tools/;
+			fastcgi_index index.php;
+			include  fcgi.conf;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /tools/index.php?$1& last;
+			}
+
+			if ($request_filename ~ "\.php$") {
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+			}
+		}
+
+		location /status {
+			stub_status on;
+			access_log   off;
+		}
+
+		location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+			{
+				expires      30d;
+			}
+
+		location ~ .*\.(js|css)?$
+			{
+				expires      12h;
+			}
+
+		location ^~ /flash1/ {
+                        alias /data/fantasy_farm2/flash1/;
+                }
+
+		location ^~ /flash/ {
+                        alias /data/fantasy_farm2/flash/;
+                }
+
+		location ^~ /svn.php {
+                        root  /data/tools/svn/;
+                        fastcgi_pass  unix:/tmp/php-cgi.sock;
+                        include fcgi.conf;
+                }
+
+		location / {
+			index  test.php;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /test.php?$1& last;
+			}
+		}
+	}
+
+	server
+	{
+		listen       95;
+		server_name 221.122.61.3;
+		server_name 192.168.20.101;
+		index test.php;
+
+		root  /data/huajie/public/;
+
+		access_log /tmp/farm.access.log;
+		error_log /tmp/farm.error.log;
+
+		location ~ .*\.(php|php5)?$
+			{
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+				fastcgi_index test.php;
+				include fcgi.conf;
+			}
+
+		location ^~ /tools/{
+			root  /data/tools/;
+			fastcgi_index index.php;
+			include  fcgi.conf;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /tools/index.php?$1& last;
+			}
+
+			if ($request_filename ~ "\.php$") {
+				fastcgi_pass  unix:/tmp/php-cgi.sock;
+			}
+		}
+
+		location /status {
+			stub_status on;
+			access_log   off;
+		}
+
+		location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+			{
+				expires      30d;
+			}
+
+		location ~ .*\.(js|css)?$
+			{
+				expires      12h;
+			}
+
+		location ^~ /flash1/ {
+                        alias /data/fantasy_farm/flash1/;
+                }
+
+		location ^~ /flash/ {
+                        alias /data/fantasy_farm/flash/;
+                }
+
+		location ^~ /svn.php {
+                        root  /data/tools/svn/;
+                        fastcgi_pass  unix:/tmp/php-cgi.sock;
+                        include fcgi.conf;
+                }
+
+		location / {
+			index  test.php;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /test.php?$1& last;
+			}
+		}
+	}
+
+	server
+	{
+		listen       997;
+		server_name 192.168.20.101;
+		index index.php;
+
+		root  /data/phpMyAdmin/;
+
+		access_log /tmp/farm.access.log;
+		error_log /tmp/farm.error.log;
+
+		location ~ .*\.(php|php5)?$ {
+			fastcgi_pass  unix:/tmp/php-cgi.sock;
+			fastcgi_index index.php;
+			include fcgi.conf;
+		}
+	}
+
+	server
+	{
+		listen       998;
+		server_name 192.168.20.101;
+		index test.php;
+
+		root  /data/fantasy_mysql/public/;
+
+		access_log /tmp/farm.access.log;
+		error_log /tmp/farm.error.log;
+
+		location ~ .*\.(php|php5)?$ {
+			fastcgi_pass  unix:/tmp/php-cgi.sock;
+			fastcgi_index test.php;
+			include fcgi.conf;
+		}
+
+		location ^~ /tools/{
+			root  /data/tools_mysql/;
+			fastcgi_pass  unix:/tmp/php-cgi.sock;
+			fastcgi_index index.php;
+			include  fcgi.conf;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /tools/index.php?$1& last;
+			}
+		}
+
+		location ^~ /pma/{
+                        root  /data/phpMyAdmin/;
+			index index.php;
+                        fastcgi_pass  unix:/tmp/php-cgi.sock;
+                        fastcgi_index index.php;
+                        include  fcgi.conf;
+                }
+
+		location / {
+			index  test.php;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /test.php?$1& last;
+			}
+		}
+	}
+
+	server
+	{
+		listen       999;
+		server_name 192.168.20.101;
+		index index.php;
+		root  /data/fantasy_farm2/public/;
+
+		location ~ .*\.(php|php5)?$
+		{
+			fastcgi_pass  unix:/tmp/php-cgi.sock;
+			fastcgi_index index.php;
+			include fcgi.conf;
+		}
+
+		location /status {
+			stub_status on;
+			access_log   off;
+		}
+
+		location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)$
+		{
+			expires      30d;
+		}
+
+		location ~ .*\.(js|css)?$
+		{
+			expires      12h;
+		}
+
+		location ^~ /flash/ {
+                        alias /data/fantasy_farm2/flash/;
+                }
+
+		if ( $fastcgi_script_name ~ .*\.php )  {
+			rewrite ^/(.+)$ /index.php?$1& last;
+		}
+
+		location / {
+			index  index.php;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /index.php?$1& last;
+			}
+		}
+	}
+
+	server
+        {
+                listen       990;
+                server_name 192.168.20.101;
+                index index.php;
+                root  /data/xhprof/;
+
+		location ^~ /js/ {
+                        alias /data/fantasy_farm/public/js/;
+                }
+
+		location ^~ /html/ {
+                        alias /data/fantasy_farm/public/html/;
+                }
+
+                location ~ .*\.(php|php5)?$
+                {
+                        fastcgi_pass  unix:/tmp/php-cgi.sock;
+                        fastcgi_index index.php;
+                        include fcgi.conf;
+                }
+
+                location / {
+                	index  index.php;
+			if (!-e $request_filename){
+                                rewrite ^/(.+)$ /index.php?$1& last;
+                        }
+                }
+        }
+
+	server
+	{
+		listen       992;
+		server_name 192.168.20.101;
+		index index.php;
+		root  /data/fantasy_test/test2/public/;
+
+		location ~ .*\.(php|php5)?$
+		{
+			fastcgi_pass  unix:/tmp/php-cgi.sock;
+			fastcgi_index index.php;
+			include fcgi.conf;
+		}
+
+		location ^~ /flash/ {
+                        alias /data/fantasy_farm2/flash/;
+                }
+
+		if ( $fastcgi_script_name ~ .*\.php )  {
+			rewrite ^/(.+)$ /index.php?$1& last;
+		}
+
+		location / {
+			index  index.php;
+			if (!-f $request_filename){
+				rewrite ^/(.+)$ /index.php?$1& last;
+			}
+		}
+	}
+
+include vhost/*.conf;
+}
