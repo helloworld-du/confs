@@ -1,0 +1,5 @@
+#!/bin/bash
+actionsDir=/Users/dushengchen/work/onLogin/action/
+logDir=/Users/dushengchen/work/onLogin/logs/
+cd $actionsDir
+ls -l | awk '{if($9!="nohup.out"){cmd="nohup '$actionsDir'"$9" >> '$logDir'"$9".log & ";system(cmd)}}'

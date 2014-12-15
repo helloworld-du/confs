@@ -1,0 +1,10 @@
+#!/bin/bash
+source ../base
+ulimit -n 1024
+dataDir=/Users/dushengchen/work/local/mongo/data
+lockFile=$dataDir'/mongod.lock'
+if [ -f $lockFile ];then
+	day='date +%Y%m%d'
+	mv $lockFile $loclFile'.'$day
+fi
+/Users/dushengchen/work/local/mongo/bin/mongod -f /Users/dushengchen/work/local/mongo/mongod.conf

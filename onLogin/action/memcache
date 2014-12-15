@@ -1,0 +1,3 @@
+#!/bin/bash
+source ../base
+/usr/local/bin/memcached -d -m 24 -p 11211

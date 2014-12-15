@@ -1,0 +1,164 @@
+nohup: /Users/dushengchen/work/onLogin/action/mongo: Permission denied
+dushengchen start at 2014年 9月 5日 星期五 09时49分53秒 CST
+dushengchen start at 2014年 9月 7日 星期日 14时32分58秒 CST
+************** 
+old lock file: /Users/dushengchen/work/local/mongo/data/mongod.lock.  probably means unclean shutdown,
+but there are no journal files to recover.
+this is likely human error or filesystem corruption.
+please make sure that your journal directory is mounted.
+found 5 dbs.
+see: http://dochub.mongodb.org/core/repair for more information
+*************
+dushengchen start at 2014年 9月 9日 星期二 09时51分03秒 CST
+************** 
+old lock file: /Users/dushengchen/work/local/mongo/data/mongod.lock.  probably means unclean shutdown,
+but there are no journal files to recover.
+this is likely human error or filesystem corruption.
+please make sure that your journal directory is mounted.
+found 5 dbs.
+see: http://dochub.mongodb.org/core/repair for more information
+*************
+dushengchen start at 2014年 9月10日 星期三 09时59分32秒 CST
+dushengchen start at 2014年 9月11日 星期四 10时04分26秒 CST
+dushengchen start at 2014年 9月16日 星期二 10时06分18秒 CST
+************** 
+old lock file: /Users/dushengchen/work/local/mongo/data/mongod.lock.  probably means unclean shutdown,
+but there are no journal files to recover.
+this is likely human error or filesystem corruption.
+please make sure that your journal directory is mounted.
+found 6 dbs.
+see: http://dochub.mongodb.org/core/repair for more information
+*************
+dushengchen start at 2014年 9月17日 星期三 10时04分53秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月18日 星期四 09时56分58秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月19日 星期五 09时49分10秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月19日 星期五 11时19分43秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月22日 星期一 10时01分28秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月23日 星期二 10时03分51秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月24日 星期三 09时51分41秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月25日 星期四 10时12分34秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月26日 星期五 10时01分21秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月28日 星期日 10时14分18秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月28日 星期日 11时02分20秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月29日 星期一 09时52分24秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月29日 星期一 15时03分26秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年 9月30日 星期二 11时44分47秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年10月 1日 星期三 21时01分51秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年10月 7日 星期二 23时47分59秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年10月 8日 星期三 10时02分26秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年10月 9日 星期四 09时45分29秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年10月11日 星期六 10时11分33秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年10月13日 星期一 13时37分27秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 2014年10月14日 星期二 10时07分49秒 CST
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+dushengchen start at 四 10 16 09:59:31 CST 2014
+dushengchen start at 五 10 17 09:48:38 CST 2014
+dushengchen start at 五 10 17 15:55:40 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 一 10 20 10:36:42 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 二 10 21 09:49:35 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 三 10 22 10:01:28 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 四 10 23 10:02:52 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 五 10 24 10:05:27 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 一 10 27 09:54:55 CST 2014
+dushengchen start at 二 10 28 10:00:30 CST 2014
+dushengchen start at 三 10 29 10:01:38 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 四 10 30 10:08:23 CST 2014
+dushengchen start at 五 10 31 10:01:57 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 一 11 3 10:07:37 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 一 11 3 19:01:29 CST 2014
+dushengchen start at 二 11 4 10:06:37 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 三 11 5 10:04:47 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 四 11 6 11:48:33 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 五 11 7 09:52:05 CST 2014
+dushengchen start at 一 11 10 09:53:38 CST 2014
+dushengchen start at 二 11 11 09:53:30 CST 2014
+dushengchen start at 三 11 12 11:32:16 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 四 11 13 09:58:33 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 一 11 17 12:20:06 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 二 11 18 09:50:19 CST 2014
+dushengchen start at 三 11 19 10:01:11 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 四 11 20 09:58:46 CST 2014
+dushengchen start at 五 11 21 10:00:38 CST 2014
+dushengchen start at 一 11 24 10:06:00 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 二 11 25 10:16:34 CST 2014
+dushengchen start at 三 11 26 10:10:09 CST 2014
+dushengchen start at 四 11 27 10:01:11 CST 2014
+dushengchen start at 五 11 28 09:57:43 CST 2014
+dushengchen start at 二 12 2 10:33:40 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 三 12 3 09:57:13 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 四 12 4 10:05:20 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 五 12 5 10:04:47 CST 2014
+dushengchen start at 一 12 8 10:07:30 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 一 12 8 20:40:30 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 二 12 9 10:07:11 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 三 12 10 10:01:00 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 四 12 11 09:50:50 CST 2014
+dushengchen start at 五 12 12 10:28:44 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory
+dushengchen start at 一 12 15 09:54:33 CST 2014
+mv: target ‘+%Y%m%d’ is not a directory

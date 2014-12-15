@@ -1,0 +1,195 @@
+[03-Sep-2014 10:04:43] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:04:43] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:15:30] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:15:30] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:15:30] ERROR: An another FPM instance seems to already listen on /Users/dushengchen/work/var/php-fpm/php-cgi.sock
+[03-Sep-2014 10:15:30] ERROR: FPM initialization failed
+[03-Sep-2014 10:16:07] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:16:07] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:16:07] ERROR: An another FPM instance seems to already listen on /Users/dushengchen/work/var/php-fpm/php-cgi.sock
+[03-Sep-2014 10:16:07] ERROR: FPM initialization failed
+[03-Sep-2014 10:16:29] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:16:29] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:16:29] ERROR: An another FPM instance seems to already listen on /Users/dushengchen/work/var/php-fpm/php-cgi.sock
+[03-Sep-2014 10:16:29] ERROR: FPM initialization failed
+[03-Sep-2014 10:17:17] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:17:17] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+[03-Sep-2014 10:17:17] ERROR: An another FPM instance seems to already listen on /Users/dushengchen/work/var/php-fpm/php-cgi.sock
+[03-Sep-2014 10:17:17] ERROR: FPM initialization failed
+[04-Sep-2014 09:55:23] NOTICE: [pool www] 'user' directive is ignored when FPM is not running as root
+[04-Sep-2014 09:55:23] NOTICE: [pool www] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月 5日 星期五 09时49分53秒 CST
+[05-Sep-2014 09:49:56] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[05-Sep-2014 09:49:56] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月 7日 星期日 14时32分58秒 CST
+[07-Sep-2014 14:32:58] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[07-Sep-2014 14:32:58] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月 9日 星期二 09时51分03秒 CST
+[09-Sep-2014 09:51:03] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[09-Sep-2014 09:51:03] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月10日 星期三 09时59分32秒 CST
+[10-Sep-2014 09:59:32] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[10-Sep-2014 09:59:32] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月11日 星期四 10时04分26秒 CST
+[11-Sep-2014 10:04:29] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[11-Sep-2014 10:04:29] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月16日 星期二 10时06分18秒 CST
+[16-Sep-2014 10:06:20] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[16-Sep-2014 10:06:20] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月17日 星期三 10时04分53秒 CST
+[17-Sep-2014 10:05:02] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[17-Sep-2014 10:05:02] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月18日 星期四 09时56分58秒 CST
+[18-Sep-2014 09:56:58] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[18-Sep-2014 09:56:58] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月19日 星期五 09时49分10秒 CST
+[19-Sep-2014 09:49:10] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[19-Sep-2014 09:49:10] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月19日 星期五 11时19分43秒 CST
+[19-Sep-2014 11:19:43] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[19-Sep-2014 11:19:43] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月22日 星期一 10时01分28秒 CST
+[22-Sep-2014 10:01:33] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[22-Sep-2014 10:01:33] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月23日 星期二 10时03分51秒 CST
+[23-Sep-2014 10:03:51] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[23-Sep-2014 10:03:51] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月24日 星期三 09时51分41秒 CST
+[24-Sep-2014 09:51:41] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[24-Sep-2014 09:51:41] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月25日 星期四 10时12分34秒 CST
+[25-Sep-2014 10:12:35] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[25-Sep-2014 10:12:35] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月26日 星期五 10时01分21秒 CST
+[26-Sep-2014 10:01:22] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[26-Sep-2014 10:01:22] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月28日 星期日 10时14分18秒 CST
+[28-Sep-2014 10:14:18] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[28-Sep-2014 10:14:18] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月28日 星期日 11时02分20秒 CST
+[28-Sep-2014 11:02:20] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[28-Sep-2014 11:02:20] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月29日 星期一 09时52分24秒 CST
+[29-Sep-2014 09:52:24] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[29-Sep-2014 09:52:24] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月29日 星期一 15时03分26秒 CST
+[29-Sep-2014 15:03:28] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[29-Sep-2014 15:03:28] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年 9月30日 星期二 11时44分47秒 CST
+[30-Sep-2014 11:44:47] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[30-Sep-2014 11:44:47] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年10月 1日 星期三 21时01分51秒 CST
+[01-Oct-2014 21:02:02] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[01-Oct-2014 21:02:02] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年10月 7日 星期二 23时47分59秒 CST
+[07-Oct-2014 23:48:00] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[07-Oct-2014 23:48:01] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年10月 8日 星期三 10时02分26秒 CST
+[08-Oct-2014 10:02:27] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[08-Oct-2014 10:02:27] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年10月 9日 星期四 09时45分29秒 CST
+[09-Oct-2014 09:45:30] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[09-Oct-2014 09:45:30] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年10月11日 星期六 10时11分33秒 CST
+[11-Oct-2014 10:11:48] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[11-Oct-2014 10:11:48] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年10月13日 星期一 13时37分27秒 CST
+[13-Oct-2014 13:37:27] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[13-Oct-2014 13:37:27] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 2014年10月14日 星期二 10时07分49秒 CST
+dushengchen start at 四 10 16 09:59:31 CST 2014
+dushengchen start at 五 10 17 09:48:38 CST 2014
+dushengchen start at 五 10 17 15:55:40 CST 2014
+[17-Oct-2014 15:55:42] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[17-Oct-2014 15:55:42] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 一 10 20 10:36:42 CST 2014
+[20-Oct-2014 10:36:45] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[20-Oct-2014 10:36:45] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 二 10 21 09:49:35 CST 2014
+[21-Oct-2014 09:49:43] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[21-Oct-2014 09:49:43] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 三 10 22 10:01:28 CST 2014
+[22-Oct-2014 10:01:40] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[22-Oct-2014 10:01:41] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 四 10 23 10:02:52 CST 2014
+[23-Oct-2014 10:02:55] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[23-Oct-2014 10:02:55] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 五 10 24 10:05:27 CST 2014
+[24-Oct-2014 10:05:30] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[24-Oct-2014 10:05:31] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 一 10 27 09:54:53 CST 2014
+dushengchen start at 二 10 28 10:00:30 CST 2014
+dushengchen start at 三 10 29 10:01:38 CST 2014
+[29-Oct-2014 10:01:48] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[29-Oct-2014 10:01:48] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 四 10 30 10:08:23 CST 2014
+dushengchen start at 五 10 31 10:01:57 CST 2014
+[31-Oct-2014 10:02:03] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[31-Oct-2014 10:02:03] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 一 11 3 10:07:37 CST 2014
+[03-Nov-2014 10:07:46] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[03-Nov-2014 10:07:46] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 一 11 3 19:01:29 CST 2014
+dushengchen start at 二 11 4 10:06:37 CST 2014
+[04-Nov-2014 10:06:38] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[04-Nov-2014 10:06:38] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 三 11 5 10:04:47 CST 2014
+[05-Nov-2014 10:04:47] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[05-Nov-2014 10:04:47] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 四 11 6 11:48:33 CST 2014
+[06-Nov-2014 11:48:33] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[06-Nov-2014 11:48:33] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 五 11 7 09:52:05 CST 2014
+dushengchen start at 一 11 10 09:53:38 CST 2014
+dushengchen start at 二 11 11 09:53:30 CST 2014
+dushengchen start at 三 11 12 11:32:16 CST 2014
+[12-Nov-2014 11:32:18] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[12-Nov-2014 11:32:19] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 四 11 13 09:58:33 CST 2014
+[13-Nov-2014 09:58:40] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[13-Nov-2014 09:58:40] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 一 11 17 12:20:06 CST 2014
+[17-Nov-2014 12:20:10] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[17-Nov-2014 12:20:10] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 二 11 18 09:50:19 CST 2014
+dushengchen start at 三 11 19 10:01:11 CST 2014
+[19-Nov-2014 10:01:16] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[19-Nov-2014 10:01:16] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 四 11 20 09:58:46 CST 2014
+dushengchen start at 五 11 21 10:00:38 CST 2014
+dushengchen start at 一 11 24 10:06:00 CST 2014
+[24-Nov-2014 10:06:01] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[24-Nov-2014 10:06:01] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 二 11 25 10:16:34 CST 2014
+dushengchen start at 三 11 26 10:10:09 CST 2014
+dushengchen start at 四 11 27 10:01:11 CST 2014
+dushengchen start at 五 11 28 09:57:43 CST 2014
+dushengchen start at 二 12 2 10:33:40 CST 2014
+[02-Dec-2014 10:33:42] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[02-Dec-2014 10:33:42] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 三 12 3 09:57:13 CST 2014
+[03-Dec-2014 09:57:13] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[03-Dec-2014 09:57:13] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 四 12 4 10:05:20 CST 2014
+[04-Dec-2014 10:05:20] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[04-Dec-2014 10:05:20] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 五 12 5 10:04:47 CST 2014
+dushengchen start at 一 12 8 10:07:30 CST 2014
+[08-Dec-2014 10:07:38] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[08-Dec-2014 10:07:38] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 一 12 8 20:40:30 CST 2014
+[08-Dec-2014 20:40:30] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[08-Dec-2014 20:40:30] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 二 12 9 10:07:11 CST 2014
+[09-Dec-2014 10:07:11] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[09-Dec-2014 10:07:11] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 三 12 10 10:01:00 CST 2014
+[10-Dec-2014 10:01:01] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[10-Dec-2014 10:01:01] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 四 12 11 09:50:50 CST 2014
+dushengchen start at 五 12 12 10:28:41 CST 2014
+[12-Dec-2014 10:28:49] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[12-Dec-2014 10:28:49] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root
+dushengchen start at 一 12 15 09:54:33 CST 2014
+[15-Dec-2014 09:54:34] NOTICE: [pool dusc] 'user' directive is ignored when FPM is not running as root
+[15-Dec-2014 09:54:34] NOTICE: [pool dusc] 'group' directive is ignored when FPM is not running as root

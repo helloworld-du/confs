@@ -1,0 +1,360 @@
+action/mongo: line 2: ../base: No such file or directory
+nohup: redis.sh: No such file or directory
+dushengchen login at 2014年 9月10日 星期三 12时21分55秒 CST
+2014-10-27 10:52:53 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2014-10-27 10:52:53 947 [Warning] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2014-10-27 10:52:53 947 [Warning] One can only use the --user switch if running as root
+
+2014-10-27 10:52:53 947 [Note] Plugin 'FEDERATED' is disabled.
+2014-10-27 10:52:53 947 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-10-27 10:52:53 947 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-10-27 10:52:53 947 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2014-10-27 10:52:53 947 [Note] InnoDB: Memory barrier is not used
+2014-10-27 10:52:53 947 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-10-27 10:52:53 947 [Note] InnoDB: Using CPU crc32 instructions
+2014-10-27 10:52:53 947 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-10-27 10:52:53 947 [Note] InnoDB: Completed initialization of buffer pool
+2014-10-27 10:52:53 947 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-10-27 10:52:53 947 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-10-27 10:52:53 947 [Note] InnoDB: Waiting for purge to start
+2014-10-27 10:52:53 947 [Note] InnoDB: 5.6.20 started; log sequence number 1626097
+2014-10-27 10:52:53 947 [Note] RSA private key file not found: /usr/local/var/mysql//private_key.pem. Some authentication plugins will not work.
+2014-10-27 10:52:53 947 [Note] RSA public key file not found: /usr/local/var/mysql//public_key.pem. Some authentication plugins will not work.
+2014-10-27 10:52:53 947 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-10-27 10:52:53 947 [Note] IPv6 is available.
+2014-10-27 10:52:53 947 [Note]   - '::' resolves to '::';
+2014-10-27 10:52:53 947 [Note] Server socket created on IP: '::'.
+2014-10-27 10:52:53 947 [Warning] 'user' entry 'User@Host' has both a password and an authentication plugin specified. The password will be ignored.
+2014-10-27 10:52:53 947 [Warning] The plugin 'plugin' used to authenticate user 'User'@'Host' is not loaded. Nobody can currently login using this account.
+2014-10-27 10:52:54 947 [Note] Event Scheduler: Loaded 0 events
+2014-10-27 10:52:54 947 [Note] /Users/dushengchen/work/local/mysql/bin/mysqld: ready for connections.
+Version: '5.6.20'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2014-10-27 19:33:50 947 [Note] /Users/dushengchen/work/local/mysql/bin/mysqld: Normal shutdown
+
+2014-10-27 19:33:50 947 [Note] Giving 0 client threads a chance to die gracefully
+2014-10-27 19:33:50 947 [Note] Event Scheduler: Purging the queue. 0 events
+2014-10-27 19:33:50 947 [Note] Shutting down slave threads
+2014-10-27 19:33:50 947 [Note] Forcefully disconnecting 0 remaining clients
+2014-10-27 19:33:50 947 [Note] Binlog end
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'partition'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_CMP'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'INNODB_TRX'
+2014-10-27 19:33:50 947 [Note] Shutting down plugin 'InnoDB'
+2014-10-27 19:33:50 947 [Note] InnoDB: FTS optimize thread exiting.
+2014-10-27 19:33:50 947 [Note] InnoDB: Starting shutdown...
+2014-10-27 19:33:52 947 [Note] InnoDB: Shutdown completed; log sequence number 1626107
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'BLACKHOLE'
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'ARCHIVE'
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'MyISAM'
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'MEMORY'
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'CSV'
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'sha256_password'
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'mysql_old_password'
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'mysql_native_password'
+2014-10-27 19:33:52 947 [Note] Shutting down plugin 'binlog'
+2014-10-27 19:33:52 947 [Note] /Users/dushengchen/work/local/mysql/bin/mysqld: Shutdown complete
+
+2014-10-28 10:47:27 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2014-10-28 10:47:27 3207 [Warning] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2014-10-28 10:47:27 3207 [Warning] One can only use the --user switch if running as root
+
+2014-10-28 10:47:27 3207 [Note] Plugin 'FEDERATED' is disabled.
+2014-10-28 10:47:27 3207 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2014-10-28 10:47:27 3207 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-10-28 10:47:27 3207 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2014-10-28 10:47:27 3207 [Note] InnoDB: Memory barrier is not used
+2014-10-28 10:47:27 3207 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-10-28 10:47:27 3207 [Note] InnoDB: Using CPU crc32 instructions
+2014-10-28 10:47:27 3207 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-10-28 10:47:27 3207 [Note] InnoDB: Completed initialization of buffer pool
+2014-10-28 10:47:27 3207 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-10-28 10:47:27 3207 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-10-28 10:47:27 3207 [Note] InnoDB: Waiting for purge to start
+2014-10-28 10:47:27 3207 [Note] InnoDB: 5.6.20 started; log sequence number 1626107
+2014-10-28 10:47:27 3207 [Note] RSA private key file not found: /usr/local/var/mysql//private_key.pem. Some authentication plugins will not work.
+2014-10-28 10:47:27 3207 [Note] RSA public key file not found: /usr/local/var/mysql//public_key.pem. Some authentication plugins will not work.
+2014-10-28 10:47:27 3207 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-10-28 10:47:27 3207 [Note] IPv6 is available.
+2014-10-28 10:47:27 3207 [Note]   - '::' resolves to '::';
+2014-10-28 10:47:27 3207 [Note] Server socket created on IP: '::'.
+2014-10-28 10:47:28 3207 [Warning] 'user' entry 'User@Host' has both a password and an authentication plugin specified. The password will be ignored.
+2014-10-28 10:47:28 3207 [Warning] The plugin 'plugin' used to authenticate user 'User'@'Host' is not loaded. Nobody can currently login using this account.
+2014-10-28 10:47:28 3207 [Note] Event Scheduler: Loaded 0 events
+2014-10-28 10:47:28 3207 [Note] /Users/dushengchen/work/local/mysql/bin/mysqld: ready for connections.
+Version: '5.6.20'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+
+Status information:
+
+Current dir: /usr/local/var/mysql/
+Running threads: 0  Stack size: 262144
+Current locks:
+lock: 0x7fd2741b9760:
+
+lock: 0x7fd2738c3960:
+
+lock: 0x7fd274810560:
+
+lock: 0x7fd27502a360:
+
+lock: 0x7fd2741bf160:
+
+lock: 0x7fd273851d60:
+
+lock: 0x7fd273837b60:
+
+lock: 0x7fd274193d60:
+
+lock: 0x7fd274197d60:
+
+lock: 0x7fd27418c160:
+
+lock: 0x7fd274188760:
+
+lock: 0x7fd27417bb60:
+
+lock: 0x104f422d8:
+
+lock: 0x104f42200:
+
+lock: 0x104f412d0:
+
+lock: 0x104f411f8:
+
+lock: 0x104f41120:
+
+lock: 0x104f41480:
+
+lock: 0x104f3f7d0:
+
+lock: 0x104f42128:
+
+lock: 0x104f3fe90:
+
+lock: 0x104f40118:
+
+lock: 0x104f3fdb8:
+
+lock: 0x104f40040:
+
+lock: 0x104f3fce0:
+
+lock: 0x104f3ff68:
+
+lock: 0x104f40628:
+
+lock: 0x104f40550:
+
+lock: 0x104f40478:
+
+lock: 0x104f3fc08:
+
+lock: 0x104f3f980:
+
+lock: 0x104f3fb30:
+
+lock: 0x104f3f8a8:
+
+lock: 0x104f3fa58:
+
+lock: 0x104f403a0:
+
+lock: 0x104f402c8:
+
+lock: 0x104f401f0:
+
+lock: 0x104f41dc8:
+
+lock: 0x104f42050:
+
+lock: 0x104f41f78:
+
+lock: 0x104f41ea0:
+
+lock: 0x104f41a68:
+
+lock: 0x104f41990:
+
+lock: 0x104f418b8:
+
+lock: 0x104f417e0:
+
+lock: 0x104f41708:
+
+lock: 0x104f41c18:
+
+lock: 0x104f41630:
+
+lock: 0x104f41558:
+
+lock: 0x104f41b40:
+
+lock: 0x104f413a8:
+
+lock: 0x104f40f70:
+
+lock: 0x104f41048:
+
+lock: 0x104f40e98:
+
+lock: 0x104f40dc0:
+
+lock: 0x104f40a60:
+
+lock: 0x104f40ce8:
+
+lock: 0x104f40c10:
+
+lock: 0x104f40988:
+
+lock: 0x104f40b38:
+
+lock: 0x104f408b0:
+
+lock: 0x104f407d8:
+
+lock: 0x104f40700:
+
+lock: 0x104f41cf0:
+
+
+Key caches:
+default
+Buffer_size:       8388608
+Block_size:           1024
+Division_limit:        100
+Age_limit:             300
+blocks used:             6
+not flushed:             0
+w_requests:             23
+writes:                 23
+r_requests:             56
+reads:                   5
+
+
+handler status:
+read_key:            0
+read_next:           0
+read_rnd             0
+read_first:          3
+write:              21
+delete               0
+update:              0
+
+Table status:
+Opened tables:         71
+Open tables:           64
+Open files:            24
+Open streams:           0
+
+Alarm status:
+Active alarms:   0
+Max used alarms: 0
+Next alarm time: 0
+
+
+
+Events status:
+LLA = Last Locked At  LUA = Last Unlocked At
+WOC = Waiting On Condition  DL = Data Locked
+
+Event scheduler status:
+State      : INITIALIZED
+Thread id  : 0
+LLA        : n/a:0
+LUA        : n/a:0
+WOC        : NO
+Workers    : 0
+Executed   : 0
+Data locked: NO
+
+Event queue status:
+Element count   : 0
+Data locked     : NO
+Attempting lock : NO
+LLA             : init_queue:139
+LUA             : init_queue:149
+WOC             : NO
+Next activation : never
+2014-10-28 19:32:11 3207 [Warning] 'user' entry 'User@Host' has both a password and an authentication plugin specified. The password will be ignored.
+2014-10-28 19:32:11 3207 [Warning] The plugin 'plugin' used to authenticate user 'User'@'Host' is not loaded. Nobody can currently login using this account.
+2014-10-28 19:32:40 3207 [Note] /Users/dushengchen/work/local/mysql/bin/mysqld: Normal shutdown
+
+2014-10-28 19:32:40 3207 [Note] Giving 0 client threads a chance to die gracefully
+2014-10-28 19:32:40 3207 [Note] Event Scheduler: Purging the queue. 0 events
+2014-10-28 19:32:40 3207 [Note] Shutting down slave threads
+2014-10-28 19:32:40 3207 [Note] Forcefully disconnecting 0 remaining clients
+2014-10-28 19:32:40 3207 [Note] Binlog end
+2014-10-28 19:32:40 3207 [Note] Shutting down plugin 'partition'
+2014-10-28 19:32:40 3207 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_CMP'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'INNODB_TRX'
+2014-10-28 19:32:41 3207 [Note] Shutting down plugin 'InnoDB'
+2014-10-28 19:32:41 3207 [Note] InnoDB: FTS optimize thread exiting.
+2014-10-28 19:32:41 3207 [Note] InnoDB: Starting shutdown...
+2014-10-28 19:32:42 3207 [Note] InnoDB: Shutdown completed; log sequence number 1626133
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'BLACKHOLE'
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'ARCHIVE'
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'MyISAM'
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'MEMORY'
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'CSV'
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'sha256_password'
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'mysql_old_password'
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'mysql_native_password'
+2014-10-28 19:32:42 3207 [Note] Shutting down plugin 'binlog'
+2014-10-28 19:32:42 3207 [Note] /Users/dushengchen/work/local/mysql/bin/mysqld: Shutdown complete
+
