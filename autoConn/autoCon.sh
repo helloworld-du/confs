@@ -1,6 +1,6 @@
 #!/bin/bash
 remote=$1
-source ./autoCon.inc.sh
+source `dirname $0`/autoCon.inc.sh
 source ${incBase}/${remote}
 datetime=`date`
 echo "${datetime} ${HOSTNAME} $remote"
