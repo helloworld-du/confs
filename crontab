@@ -1,3 +1,3 @@
 1 */4 * * * sh ~/work/git/confs/autoConn/autoCon.sh vpn 2>&1 >> /tmp/crontab.log
-*/5 * * * * echo "123456" >> /tmp/test.log
-
+#*/5 * * * * echo "123456" >> /tmp/test.log
+1 */5 * * * /Users/dushengchen/work/git/confs/autoConn/proxy.sh 2>&1 >> /tmp/crontab.log

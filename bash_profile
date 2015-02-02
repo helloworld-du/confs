@@ -5,6 +5,9 @@ alias work="cd ~/work && ls -l"
 alias code="cd /Users/dushengchen/work/git/royalstory-server-code && ls -l"
 alias dircolors="/usr/local/Cellar/coreutils/8.23/bin/gdircolors"
 alias kt="cd /Users/dushengchen/work/git/kt && ls -l"
+alias confs="cd  ~/work/git/confs/ && ls -l"
+alias phperr="tail -f ~/work/var/php/php_errors.log"
+#alias mysql="mysql -uroot"
 
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/
