@@ -1,16 +1,9 @@
 export PATH=$PATH:~/bin
 
-#alias ll="ls -l $1"
-alias work="cd ~/work && ls -l"
-alias code="cd /Users/dushengchen/work/git/royalstory-server-code && ls -l"
-alias dircolors="/usr/local/Cellar/coreutils/8.23/bin/gdircolors"
-alias kt="cd /Users/dushengchen/work/git/kt && ls -l"
-alias confs="cd  ~/work/git/confs/ && ls -l"
-alias phperr="tail -f ~/work/var/php/php_errors.log"
-#alias mysql="mysql -uroot"
+if [ -f ~/.bash_alias ]; then
+    . ~/.bash_alias
+fi
 
-
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/
 export PATH=$JAVA_HOME/bin:$PATH 
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
@@ -23,14 +16,7 @@ fi
 #export CLICOLOR=1
 export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
-alias ls='ls -GF --show-control-chars --color=auto'
-alias ll='ls -l'
 eval `gdircolors -b $HOME/.dir_colors`
-
-alias egrep='egrep --colo=auto'
-alias fgrep='fgrep --color=auto'
-
-alias gethost='ssh deploy "php /mnt/deploy/gethost.php 2>/dev/null"'
 
 fssh() {
 	arg=($@)
@@ -43,7 +29,6 @@ fssh() {
 	ssh -v -F ~/.ssh/deploy_config $server_ip "${arg[*]}"
 	return
 }
-alias fscp='scp -F ~/.ssh/deploy_config'
 
 git_propmt() {
 	branch=`git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1/"`
