@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 remote=$1
 source `dirname $0`/autoCon.inc.sh
 source ${incBase}/${remote}
