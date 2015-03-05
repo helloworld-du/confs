@@ -1,4 +1,7 @@
 #!/bin/bash
+baseDir=`dirname $0`
+source $baseDir/../base
+
 set -x
 ssh -qTfnN -D 7070 molly
 ssh -qTfnN -D 7071 qa
