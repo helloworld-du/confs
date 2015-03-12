@@ -1,0 +1,27 @@
+#!/bin/sh
+
+set -x
+cmd=$(which tmux) # tmux path
+session=watch   # session name
+
+if [ -z $cmd ]; then
+  echo "You need to install tmux."
+  exit 1
+fi
+
+$cmd has -t $session
+
+if [ $? != 0 ]; then
+	$cmd new-session -d -s $session "tail -f ~/work/var/php/php_errors.log"
+	$cmd split-window -v -p 20
+	$cmd selectp -t 0
+	$cmd split-window -h "htop"
+	$cmd selectp -t 0
+	$cmd split-window -v -p 75 ' ssh qa "tail -f /tmp/php-error.txt"'
+	$cmd split-window -v -p 66 'ssh sonia "tail -f /tmp/php-error.txt"'
+	$cmd split-window -v -p 50 'ssh julia "tail -f /tmp/php-error.txt"'
+	$cmd selectp -t 5
+fi
+$cmd attach-session -t $session
+
+exit 0
