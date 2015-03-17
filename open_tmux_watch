@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
 set -x
-cmd=$(which tmux) # tmux path
-session=watch   # session name
+cmd="/usr/bin/tmux" # tmux path
+session="watch"   # session name
 
 if [ -z $cmd ]; then
   echo "You need to install tmux."
