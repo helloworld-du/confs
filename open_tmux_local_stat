@@ -12,10 +12,9 @@ fi
 $cmd has -t $session
 
 if [ $? != 0 ]; then
-	$cmd new-session -d -s $session "ifstat"
-	$cmd split-window -v "tail -f ~/work/var/php/php_errors.log"
-	$cmd selectp -t 0
-	$cmd split-window -h "htop"
+	$cmd new-session -d -s $session "htop"
+	$cmd split-window -h "tail -f ~/work/var/php/php_errors.log"
+	$cmd split-window -v -p 40 
 fi
 $cmd attach-session -t $session
 #$cmd att -t $session
