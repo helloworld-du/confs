@@ -78,11 +78,11 @@ PS1_PWD="\[\033[1;38;5;00m\]\w\[\033[00m\]"
 PS1_GIT="\[\033[38;5;200m\]"'$(git_propmt)'"\[\033[00m\]"
 PS1_PROMPT="\n \[\033[38;5;208m\]»\[\033[00m\] "
 
-if [[ -n $TMUX ]];
-then
-	PS1_SET_TITLE='$(settitle $PWD)';
-	printf '\033Ptmux;\033\033]12;lime\007\033\\'
-fi
+#if [[ -n $TMUX ]];
+#then
+#	PS1_SET_TITLE='$(settitle $PWD)';
+#	printf '\033Ptmux;\033\033]12;lime\007\033\\'
+#fi
 
 export PS1="$PS1_SET_TITLE $PS1_TIME $PS1_HOST $PS1_PWD $PS1_GIT $PS1_PROMPT"
 
