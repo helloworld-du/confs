@@ -1,0 +1,26 @@
+#!/bin/bash
+
+function checkQuery()
+{
+	word=$1
+	row=`ps aux | grep $word | grep -v "grep" | wc -l`;
+	echo -e "$word------------\c";
+	if [ $row = "0" ];then
+		echo -e "ERROR\n";
+	else 
+		echo -e "OK\n";
+	fi
+}
+
+checkQuery "php-fpm";
+checkQuery "memcache";
+checkQuery "mongo";
+checkQuery "nginx";
+checkQuery "mysqld";
+
+lines=`grep '127.0.0.1\troyal-qa.socialgamenet.com' /etc/hosts |  grep -v '#127.0.0.1\troyal-qa.socialgamenet.com' | wc -l | awk '{print $1}'`
+if [ $lines -gt 0 ];then
+	echo -e "host royal-qa.socialgamenet.com------------OK;\n";
+else
+	echo -e "host royal-qa.socialgamenet.com------------ERROR;\n";
+fi
