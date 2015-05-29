@@ -1,7 +1,7 @@
 1 */4 * * * ~/work/git/confs/autoConn/autoCon.sh vpn 2>&1 >> /tmp/crontab.log
 #*/5 * * * * echo "123456" >> /tmp/test.log
 1 */5 * * * /Users/dushengchen/work/git/confs/autoConn/proxy.sh 2>&1 >> /tmp/crontab.log
-1 1 1 1 * /Users/dushengchen/work/git/confs/clear_log.sh 2>&1 >> /dev/null
+* * */7 * * /Users/dushengchen/work/git/confs/clear_log.sh 2>&1 >> /dev/null
 
 #* * * * * /www/royal/script/sysv_mq/recv_a.php 2>&1 >/dev/null &
 #* * * * * /www/royal/script/sysv_mq/recv_b.php 2>&1 >/dev/null &
