@@ -8,4 +8,4 @@ rm -f ~/work/var/php/php_errors.log
 rm -f ~/work/var/nginx/*.log
 rm -f ~/work/var/redis/*.log
 rm -f ~/work/var/mysql/*.log
-rm -r ~/work/var/xdebug/*
+rm -f ~/work/var/xdebug/*
