@@ -6,7 +6,6 @@ alias dircolors="/usr/local/Cellar/coreutils/8.23/bin/gdircolors"
 #alias kt="cd /Users/dushengchen/work/git/kt && ls -l"
 #alias confs="cd  ~/work/git/confs/ && ls -l"
 
-alias phperr="tail -f ~/work/var/php/php_errors.log"
 alias qaphperr='ssh qa "tail -f /tmp/php-error.txt"'
 
 alias s3log="s3cmd ls s3://royal-log/"
