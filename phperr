@@ -1,0 +1,2 @@
+#!/bin/bash
+php -i | grep error_log | awk -F" => " '{if(FNR>1){print "more than one line!"}else if($2!="") {print "tail file "$2;system("tail -f "$2);} else { print "can not find!"}}'

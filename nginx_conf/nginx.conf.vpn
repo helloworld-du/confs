@@ -1,8 +1,8 @@
 worker_processes 4;
+user www;
+error_log  /home/www/nginx/logs/error.log;
 
-error_log  /home/ubuntu/work/var/nginx/error.log;
-
-pid        /home/ubuntu/work/var/nginx/nginx.pid;
+pid        /home/www/nginx/nginx.pid;
 
 #Specifies the value for maximum file descriptors that can be opened by this process.
 worker_rlimit_nofile 51200;
@@ -58,30 +58,30 @@ http
 
                 #limit_zone  crawler  $binary_remote_addr  10m;
 server {
-        listen 8080;
+        listen 8012;
         #listen 443 default_server ssl;
 
         #ssl_certificate     ssl/wild.crt;
         #ssl_certificate_key ssl/socialgamenet.key;
 
-        root /home/ubuntu/work/www/;
+        root /home/www/htdoc/;
         #root /www/RsFramework/public;
-        index test.php;
+        index index.php;
 
         server_name helloworld.vpn;
         
         location / {
-                #access_log /Users/dushengchen/work/var/nginx/root.log;
+                #access_log /home/www/nginx/logs/acc_root.log;
                 if (!-f $request_filename){
                         rewrite ^/(.+)$ /test.php?$1& last;
                 }
 	}
 
         location ~ \.php$ {
-                fastcgi_pass unix:/home/ubuntu/work/var/php-fpm/php-cgi.sock;
-                fastcgi_index test.php;
+                fastcgi_pass unix:/home/www/php-fpm/php-cgi.sock;
+                fastcgi_index index.php;
                 include fcgi.conf;
-		#access_log /home/ubuntu/work/var/nginx/php.log;
+		#access_log /home/www/nginx/logs/acc_php_file.log;
 
         }
 

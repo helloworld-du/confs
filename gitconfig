@@ -21,5 +21,7 @@
 	ci = commit
 	st = status
 	br = branch
+    pa = "!f(){ git pull \"$@\" && git submodule update --init --recursive; }; f"
+    cia = "commit --amend"
 [color]
 	ui = true

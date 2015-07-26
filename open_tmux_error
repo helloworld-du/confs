@@ -2,7 +2,7 @@
 
 set -x
 cmd="/usr/bin/tmux" # tmux path
-session="watch"   # session name
+session="watch_error"   # session name
 
 if [ -z $cmd ]; then
   echo "You need to install tmux."
