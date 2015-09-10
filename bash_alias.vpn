@@ -2,7 +2,6 @@
 
 #alias work="cd ~/work && ls -l"
 #alias code="cd /Users/dushengchen/work/git/royalstory-server-code && ls -l"
-alias dircolors="/usr/local/Cellar/coreutils/8.23/bin/gdircolors"
 #alias kt="cd /Users/dushengchen/work/git/kt && ls -l"
 #alias confs="cd  ~/work/git/confs/ && ls -l"
 

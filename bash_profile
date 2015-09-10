@@ -8,15 +8,15 @@ export PATH="$JAVA_HOME/bin:$PATH"
 export CLASSPATH=".:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar"
 
 
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-        . $(brew --prefix)/etc/bash_completion
-fi
+#if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#        . $(brew --prefix)/etc/bash_completion
+#fi
 
 #ls颜色配置 brew install coreutils
 #export CLICOLOR=1
-export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
+#export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
-eval `gdircolors -b $HOME/.dir_colors`
+#eval `gdircolors -b $HOME/.dir_colors`
 
 export PATH=".:~/work/local/pylib:$PATH"
 export PYTHONPATH=".:$PYTHONEPATH"
@@ -87,4 +87,4 @@ PS1_PROMPT="\n \[\033[38;5;208m\]»\[\033[00m\] "
 export PS1="$PS1_SET_TITLE $PS1_TIME $PS1_HOST $PS1_PWD $PS1_GIT $PS1_PROMPT"
 
 
-[ -z "$(declare -f -F j)" ] && [[ -s $(brew --prefix)/etc/autojump.sh ]] && . $(brew --prefix)/etc/autojump.sh
+#[ -z "$(declare -f -F j)" ] && [[ -s $(brew --prefix)/etc/autojump.sh ]] && . $(brew --prefix)/etc/autojump.sh
