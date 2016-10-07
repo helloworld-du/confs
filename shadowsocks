@@ -1,0 +1,9 @@
+#!/bin/bash
+
+arg=$1
+if [ -z $arg ];then
+	arg="start"
+fi
+
+set -x
+sudo ssserver -c /etc/shadowsocks.json -d $arg
