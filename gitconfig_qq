@@ -1,0 +1,26 @@
+[core]
+	excludesfile = /Users/shengchendu/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = shengchendu
+	email = shengchendu@tencent.com
+[commit]
+	template = /Users/shengchendu/.stCommitMsg
+[push]
+        default = current
+[pull]
+    rebase = true
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+    pa = "!f(){ git pull \"$@\" && git submodule update --init --recursive; }; f"
+    cia = "commit --amend"
+[color]
+        ui = true

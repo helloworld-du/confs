@@ -1,0 +1,31 @@
+#alias ll="ls -l $1"
+
+alias dircolors="/usr/local/Cellar/coreutils/8.23/bin/gdircolors"
+
+#alias ls='ls -GF'
+alias ll='ls -alh'
+alias egrep='egrep --colo=auto'
+alias fgrep='fgrep --color=auto'
+alias gethost='ssh deploy "php /mnt/deploy/gethost.php 2>/dev/null"'
+alias fscp='scp -F ~/.ssh/deploy_config'
+
+alias psg="ps aux | grep "
+
+alias gmg='git merge'
+alias gci='git ci'
+alias gbr='git br'
+alias gst='git st'
+alias gco='git co'
+alias gdf='git diff'
+alias gplr='git pull --rebase'
+alias gpl='git pull'
+alias gpsh='git push'
+alias gdf='git diff'
+alias gadd='git add'
+alias grb='git rebase'
+
+
+alias fuck='$(thefuck $(fc -ln -1))'
+# You can use whatever you want as an alias, like for mondays:
+alias FUCK='fuck'
+
