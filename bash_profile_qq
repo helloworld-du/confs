@@ -6,7 +6,8 @@ fi
 
 export http_proxy="http://dev-proxy.oa.com:8080"
 export https_proxy="http://dev-proxy.oa.com:8080"
-
+export no_proxy="git.code.oa.com"
+export PATH=$PATH:$HOME/.composer/vendor/bin
 export PATH="$JAVA_HOME/bin:$PATH"
 export CLASSPATH=".:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar"
 

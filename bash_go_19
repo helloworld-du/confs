@@ -1,0 +1,4 @@
+curPath=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+export PATH=/usr/local/go/bin:$PATH;
+export GOPATH=/Users/shengchendu/go_path
+export GOROOT=/usr/local/go  
