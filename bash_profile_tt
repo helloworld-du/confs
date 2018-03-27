@@ -12,9 +12,7 @@ fi
 export PATH="$JAVA_HOME/bin:$PATH"
 export CLASSPATH=".:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar"
 
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-        . $(brew --prefix)/etc/bash_completion
-fi
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
 #ls颜色配置 brew install coreutils
 #export CLICOLOR=1
