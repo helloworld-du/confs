@@ -1,0 +1,22 @@
+[credential]
+	helper = store
+
+[push]
+        default = current
+[pull]
+    rebase = true
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+    pa = "!f(){ git pull \"$@\" && git submodule update --init --recursive; }; f"
+    cia = "commit --amend"
+[color]
+        ui = true
+[user]
+	email = dushengchen@outlook.com
+	name = helloworld-du
+
+[core]
+	excludesfile = /Users/dushengchen/.gitignore_global
