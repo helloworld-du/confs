@@ -1,0 +1,4 @@
+
+curl -X GET -H"X-Omi-User-Id:8" http://127.0.0.1:18223/users/8
+
+curl -X PATCH -H"X-Omi-User-Id:8" -d'{"settings":{"appLanguage":"1111"}}' "http://127.0.0.1:18223/users/8"

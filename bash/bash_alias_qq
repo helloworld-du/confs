@@ -24,6 +24,7 @@ alias gdf='git diff'
 alias gadd='git add'
 alias grb='git rebase'
 
+alias war_start='telnet towel.blinkenlights.nl'
 
 alias fuck='$(thefuck $(fc -ln -1))'
 # You can use whatever you want as an alias, like for mondays:
