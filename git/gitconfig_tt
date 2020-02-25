@@ -20,3 +20,7 @@
 
 [core]
 	excludesfile = /Users/dushengchen/.gitignore_global
+[url "ssh://git@gitlab.p1staff.com/"]
+    insteadOf = https://gitlab.p1staff.com/
+
+
