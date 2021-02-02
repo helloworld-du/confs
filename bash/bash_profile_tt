@@ -1,5 +1,6 @@
 export PATH="$PATH:~/bin"
-
+export TERM=xterm-color
+export CLICOLOR=1
 if [ -f ~/.bash_alias ]; then
     . ~/.bash_alias
 fi
@@ -10,14 +11,14 @@ fi
 
 
 
-export PATH="$JAVA_HOME/bin:$PATH"
+export PATH="$JAVA_HOME/bin:$PATH:/Users/dushengchen/github/confs/bin/"
 export CLASSPATH=".:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar"
 
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 [ -f /Users/dushengchen/github/confs/git/git_auto_completion.bash ] && . /Users/dushengchen/github/confs/git/git_auto_completion.bash
 
 #ls颜色配置 brew install coreutils
-#export CLICOLOR=1
+export CLICOLOR=1
 #export PATH="$(brew --prefix coreutils)/libexec/gnubin:/usr/local/bin:$PATH"
 MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 #eval `gdircolors -b $HOME/.dir_colors`

@@ -1,0 +1,27 @@
+[user]
+	name = dushengchen
+	email = dushengchen.dsc@alibaba-inc.com
+[core]
+	excludesfile = /Users/dushengchen/.gitignore_global
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[push]
+	default = current
+[pull]
+    rebase = true
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+    pa = "!f(){ git pull \"$@\" && git submodule update --init --recursive; }; f"
+    cia = "commit --amend"
+[color]
+	ui = true
+	
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
